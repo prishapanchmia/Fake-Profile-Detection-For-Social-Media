@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="container" id = "bg">
+    <button style="font-size:18px" id = "refreshBtn" class="refreshBtn"><i class="fa fa-refresh"></i></button>
+    <h2 class="comName">ScamScanner.</h2>
+    <div id="tot1" class="detailsContainer">
+        <div id="iIcon"><i class="fa fa-instagram" style="font-size:20px; display: inline;" ></i><p style="font-size:18px; display: inline;" ><b> Instagram </b></p></div>
+        <div id="tIcon"><i class="fa fa-twitter" style="font-size:20px; display: inline;"  ></i><p  style="font-size:18px; display: inline;" ><b> Twitter </b></p></div>
+        <hr style="margin-right: 20px;">
+        <p class="data">Username: <b id="username"> </b></p>
+        <p class="data">Name: <b id="name"></b></p>
+        <p class="data">No. of followers: <b id="followers"> </b></p>
+        <hr style="margin-right: 20px;">
+        <p class="dataNotFake" id="notFake"><b id="botOrNot"></b></p>
+    </div>
+
+
+
+    <script src="popup.js"></script>
+</body>
+</html>
