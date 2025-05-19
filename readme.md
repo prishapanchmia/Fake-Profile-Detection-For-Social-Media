@@ -3,6 +3,11 @@
 Scam Scanner is a browser extension made to detect fake Instagram and Twitter accounts.<br>
 Currently only supporting chromium-based browsers.
 
+## Research Paper
+
+You can read the full research paper here:  
+[Scam Scanner](https://drive.google.com/file/d/1UvDV6uxtVyznh_CA3itz__Rq5yz4cFwp/view?usp=sharing)
+
 ## Folders
 The code is split across 4 folders:
 
